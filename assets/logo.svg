@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d4c15f"/>
+      <stop offset="1" stop-color="#a38631"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="18" fill="#06202a"/>
+  <g transform="translate(20,18)" fill="url(#g)">
+    <!-- stylized crown + boomerang motif -->
+    <path d="M40 4 L52 32 L68 8 L80 32 L92 4 L104 40 L0 40 Z" opacity="0.95"/>
+    <path d="M10 70 C30 80, 50 78, 70 70" stroke="url(#g)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
