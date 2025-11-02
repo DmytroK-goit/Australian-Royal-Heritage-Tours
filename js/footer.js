@@ -4,7 +4,7 @@ const footerHtml = `
       <small>&copy; ${new Date().getFullYear()} Crown (Australia). All rights reserved.</small>
     </div>
     <div class="footer-links">
-      <a href="./terms.html">Terms</a>
+      <a href="../terms.html">Terms</a>
       <a href="./privacy.html">Privacy</a>
       <a href="./cookies.html">Cookie Policy</a>
       <a href="./#contact">Contact</a>
