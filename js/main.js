@@ -36,3 +36,26 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const accordionBtns = document.querySelectorAll(".accordion-btn");
+
+  accordionBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const panel = btn.nextElementSibling;
+
+      document
+        .querySelectorAll(".accordion-panel.open")
+        .forEach((openPanel) => {
+          if (openPanel !== panel) {
+            openPanel.classList.remove("open");
+            openPanel.previousElementSibling.textContent = "More Details";
+          }
+        });
+
+      panel.classList.toggle("open");
+      btn.textContent = panel.classList.contains("open")
+        ? "Hide Details"
+        : "More Details";
+    });
+  });
+});
