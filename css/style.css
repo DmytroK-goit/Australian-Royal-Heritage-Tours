@@ -8,6 +8,7 @@
   --white: #f8fafc;
   --radius: 12px;
   --container: 1100px;
+  --second-font: "Macondo", cursive;
 }
 * {
   box-sizing: border-box;
@@ -723,4 +724,13 @@ footer {
   max-height: 500px;
   opacity: 1;
   margin-top: 0.6rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Macondo", cursive;
+  font-weight: 700;
 }
